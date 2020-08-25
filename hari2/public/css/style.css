@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+a li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+a li:hover {
+  background-color: green;
+}
+
+p.font-a{
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color:white;
+      font-weight: bold;
+}
+
+p.font-b{
+      font-family: Copperplate; 
+      font-size: 16px; 
+      font-style: italic;
+}
+
+.bagian-kanan-atas{
+      float:right;
+}
+
+.bagian-kiri-atas{
+      float:left
+}
+
+header{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0;
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ff5733;
+}
+
+.isi-content{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  position: relative;
+}
+
+section{
+  text-align: center;
+}
+
+
+.under-line { 
+  border: none; 
+  width: 100%; 
+  margin: auto; 
+  margin-top: 5%; 
+  margin-bottom: 5%; 
+  height: 20px; 
+  background: linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -20px 0, linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -20px 0, linear-gradient(315deg, #ECEDDC 25%, transparent 25%), linear-gradient(45deg, #ECEDDC 25%, transparent 25%); background-size: 40px 40px; background-color: #EC173A;
+}
+
+.striped-border { 
+  border: 4px dashed #000; 
+  width: 50%; 
+  margin: auto; 
+  margin-top: 5%; 
+  margin-bottom: 5%; 
+}
+
+footer{
+  width: 100%;
+  padding: 5px;
+  margin:0;
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+  font-style: italic;
+
+}
